@@ -1,0 +1,43 @@
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+
+.user-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-item {
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  color: white;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.user-item {
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+
+}
+
+.user-item:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.user-item h3 {
+  margin: 0 0 5px;
+  font-size: 1.5em;  
+}
+
+.user-item p {
+  margin: 3px 0;
+  font-size: 1em;
+}
